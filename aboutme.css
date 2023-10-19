@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#5fc9f3;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    text-align: center;
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    margin: 20px;
+}
+
+.image-container1 {
+    text-align: center;
+    margin: 20px;
+    display: center;
+    align-items: center; 
+    justify-content: space-around;
+    height: 200px;
+}
+.image-container1 img {
+    max-height: 180px;
+    width: auto;
+
+}
+
+.game-entry {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.go-back {
+    position: absolute;
+    color: black;
+}
