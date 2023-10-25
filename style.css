@@ -1,25 +1,36 @@
-*{
-    font-family: Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?w=1380&t=st=1698226223~exp=1698226823~hmac=149cf1103bdb02c51eb241ab141941750f4dc053374ebf2667726f0a588c74f4);
+    background-size: cover;
     background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    color: #fff;
 }
 
-h1 {
-    text-align: center;
-    background-color: #333;
+p {
     color: #fff;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
     padding: 10px;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333;
 }
 
 nav li {
@@ -33,16 +44,6 @@ nav a {
     font-weight: bold;
 }
 
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #fff;
-}
-
-h2 {
-    font-size: 24px;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -50,23 +51,28 @@ img {
     margin: 0 auto;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 #Journal-Entries {
     background-color: pink;
 }
 
-.image-container {
-    text-align: center;
-}
-
-.image-container img {
-    display: inline-block;
-    margin: 10px;
-}
-
-.game-entry {
-    margin-top: 20px;
-}
-
-.about-me {
-    background-color: black;
-}
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #ffffff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }
