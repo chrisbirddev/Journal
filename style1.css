@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccdef1;
+}
+
+header {
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: #7fd9f7;
+    list-style: none;
+    white-space: nowrap;
+}
+
+nav .dropdown:hover .project-dropdown-content {
+    display: block;
+}
+
+nav .project-dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: #7fd9f7;
+    white-space: nowrap;
+}
+
+nav .project-dropdown-content li {
+    display: block;
+}
+
+nav .project-dropdown-content a {
+    padding: 10px;
+    display: block;
+}
+
+nav .dropdown-content li {
+    display: block;
+}
+
+nav .dropdown-content a {
+    display: block;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 100px; 
+}
+
+
+nav a:hover {
+    opacity: .5;
+}
+
+.socialsbar {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+.socialsbtn {
+    display: inline-block;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1px;
+    width: 28px;
+    height: 28px;
+    position: relative;
+}
+
+.socialsbtn:hover {
+    opacity: .5;
+}
